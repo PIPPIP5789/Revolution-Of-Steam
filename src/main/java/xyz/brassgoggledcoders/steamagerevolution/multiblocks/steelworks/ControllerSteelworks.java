@@ -54,7 +54,7 @@ public class ControllerSteelworks extends MultiblockCraftingMachine<InventoryCra
                     }
                 }
             }
-        } // Test
+        }
         return false;
     }
 
