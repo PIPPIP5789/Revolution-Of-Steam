@@ -1,0 +1,19 @@
+{
+    "type": "forge:ore_shaped",
+    "group": "steamagerevolution:other",
+    "pattern": [
+    "SSS",
+    "S S",
+    "SSS"
+  	],
+    "key": {
+    "S": {
+      "type": "forge:ore_dict",
+      "ore": "plateSteel"
+    }
+  },
+    "result": {
+        "item": "steamagerevolution:furnace_casing",
+        "data": 0
+    }
+}

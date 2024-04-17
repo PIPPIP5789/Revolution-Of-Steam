@@ -1,0 +1,6 @@
+{
+    "parent":"item/generated",
+    "textures":{
+        "layer0":"steamagerevolution:items/parts/gear_iron"
+    }
+}

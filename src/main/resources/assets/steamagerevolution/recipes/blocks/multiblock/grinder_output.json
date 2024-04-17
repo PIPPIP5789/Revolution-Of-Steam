@@ -1,0 +1,22 @@
+{
+    "type": "forge:ore_shaped",
+    "group": "steamagerevolution:mining",
+    "pattern": [
+    "FFF",
+    "FHF",
+    "FFF"
+  	],
+    "key": {
+    "H": {
+    	"item": "minecraft:hopper"
+    },
+    "F": {
+      "item": "steamagerevolution:grinder_frame",
+      "data": 0
+    }
+  },
+    "result": {
+        "item": "steamagerevolution:grinder_output",
+        "data": 0
+    }
+}

@@ -1,0 +1,7 @@
+{
+  "parent": "item/generated",
+  "textures": {
+    "layer0": "steamagerevolution:items/lens",
+    "layer1": "steamagerevolution:items/lens_overlay"
+  }
+}

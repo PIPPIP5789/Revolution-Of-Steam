@@ -1,0 +1,17 @@
+{
+    "type": "steamagerevolution:oreresult_shapeless",
+    "group": "steamagerevolution:materials",
+    "ingredients": [
+    {
+            "type": "forge:ore_dict",
+            "ore": "dustZinc"
+        },
+        {
+            "type": "forge:ore_dict",
+            "ore": "dustCopper"
+        }
+    ],
+    "result": {
+        "ore": "dustBrass"
+    }
+}

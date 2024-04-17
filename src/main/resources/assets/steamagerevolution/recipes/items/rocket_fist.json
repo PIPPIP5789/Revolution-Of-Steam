@@ -1,0 +1,30 @@
+{
+    "type": "forge:ore_shaped",
+    "group": "steamagerevolution:other",
+    "pattern": [
+    "TTT",
+    "BCB",
+    " I "
+  	],
+    "key": {
+    "B": {
+      "type": "forge:ore_dict",
+      "ore": "plateBrass"
+    },
+    "T": {
+    	"item": "minecraft:tnt"
+    },
+    "C": {
+    	"item": "steamagerevolution:canister",
+    	"data": 0
+    },
+    "I": {
+    	"type": "forge:ore_dict",
+    	"ore": "ingotSteel"
+    }
+  },
+    "result": {
+        "item": "steamagerevolution:rocket_fist",
+        "data": 0
+    }
+}

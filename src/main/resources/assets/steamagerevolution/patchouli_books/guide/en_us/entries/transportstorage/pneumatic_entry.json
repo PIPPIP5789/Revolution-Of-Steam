@@ -1,0 +1,15 @@
+{
+    "name": "Pneumatics",
+    "icon": "steamagerevolution:pneumatic_sender",
+    "category": "transportstorage_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The pneumatics system provides a simple solution for rapid short-distance item transfer. A sender should be placed against the source inventory. Ensure it is facing away from the inventory. Then a maximum of sixteen pneumatic tubes can be placed in a straight line away from the sender. After the tubes a router should then be placed to close the system."
+        },
+        {
+            "type": "text",
+            "text": "One item a second will then be transferred from the source inventory to the router. For longer distance transport the use of minecarts is strongly recommended."
+        }
+    ]
+}

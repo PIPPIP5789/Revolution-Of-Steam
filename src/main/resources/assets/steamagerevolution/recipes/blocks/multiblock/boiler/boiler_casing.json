@@ -1,0 +1,19 @@
+{
+    "type": "forge:ore_shaped",
+    "group": "steamagerevolution:other",
+    "pattern": [
+    "BBB",
+    "B B",
+    "BBB"
+  	],
+    "key": {
+    "B": {
+      "type": "forge:ore_dict",
+      "ore": "plateBrass"
+    }
+  },
+    "result": {
+        "item": "steamagerevolution:boiler_casing",
+        "data": 0
+    }
+}

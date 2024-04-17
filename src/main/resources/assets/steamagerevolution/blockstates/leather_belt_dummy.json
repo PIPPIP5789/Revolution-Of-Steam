@@ -1,0 +1,34 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "steamagerevolution:belt_dummy",
+        "textures": { "main": "steamagerevolution:blocks/leather_belt" }
+    },
+    "variants": {
+    	"facing": { 
+    		"up": {
+    			"model": "steamagerevolution:belt_dummy_vertical"
+    		},
+    		"down": {
+    			"model": "steamagerevolution:belt_dummy_vertical",
+    			"y": 180
+    		},
+    		"east": {
+    			"x": 180
+    		},
+    		"west": {},
+    		"north": {
+    			"y": 90
+    		},
+    		"south": {
+    			"y": -90
+    		}
+    	},
+    	"spinning": {
+    		"true": {
+    			"textures": { "main": "minecraft:blocks/wool_colored_brown" }
+    		},
+    		"false": {}
+    	}
+    }
+} 	

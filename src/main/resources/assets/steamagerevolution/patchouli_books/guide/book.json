@@ -1,0 +1,10 @@
+{
+	"name": "item.guide.steamagerevolution",
+	"landing_text": "guide.steamagerevolution.landing",
+	"version": 1,
+    "model": "steamagerevolution:guide",
+    "creative_tab": "steamagerevolution",
+    "book_texture": "patchouli:textures/gui/book_red.png",
+    "filler_texture": "steamagerevolution:textures/gui/book_filler.png",
+    "advancements_tab": "advancement.steamagerevolution.ore"
+}

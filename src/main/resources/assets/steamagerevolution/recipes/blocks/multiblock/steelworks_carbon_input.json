@@ -1,0 +1,23 @@
+{
+    "type": "forge:ore_shaped",
+    "group": "steamagerevolution:other",
+    "pattern": [
+    "BBB",
+    "BCB",
+    "BBB"
+  	],
+    "key": {
+    "B": {
+      "type": "forge:ore_dict",
+      "ore": "ingotBrickNether"
+    },
+    "C": {
+      "type": "forge:ore_dict",
+      "ore": "charcoal"
+    }
+  },
+    "result": {
+        "item": "steamagerevolution:steelworks_carbon_input",
+        "data": 0
+    }
+}

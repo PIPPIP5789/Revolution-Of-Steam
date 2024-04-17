@@ -1,0 +1,11 @@
+{
+    "name": "Sulphuric Acid",
+    "icon": "minecraft:water_bucket",
+    "category": "alchemical_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Sulphuric acid is created from sulphur dioxide and water in a vat. Sulphur dioxide is collected by the Fume Collector when placed on top of a vanilla furnace and sulphur crystals are used to fuel that furnace"
+        }
+    ]
+}

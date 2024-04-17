@@ -1,0 +1,12 @@
+{
+    "name": "Fluid Hopper",
+    "icon": "steamagerevolution:fluid_hopper",
+    "category": "transportstorage_category",
+    "pages": [
+        {
+            "type": "crafting",
+            "recipe": "steamagerevolution:fluid_hopper",
+            "text": "Acts exactly like the $(item)Hopper$() you're used to, but transports fluids instead of items. It does so at a rate of a bucket per second."
+        }
+    ]
+}

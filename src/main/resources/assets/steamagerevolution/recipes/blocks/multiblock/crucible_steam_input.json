@@ -1,0 +1,23 @@
+{
+    "type": "forge:ore_shaped",
+    "group": "steamagerevolution:other",
+    "pattern": [
+    "BBB",
+    "BEB",
+    "BBB"
+  	],
+    "key": {
+    "B": {
+      "type": "forge:ore_dict",
+      "ore": "plateCopper"
+    },
+    "E": {
+      "item": "steamagerevolution:canister",
+      "data": 0
+    }
+  },
+    "result": {
+        "item": "steamagerevolution:crucible_steam_input",
+        "data": 0
+    }
+}

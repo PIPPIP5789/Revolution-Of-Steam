@@ -1,0 +1,17 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "cube_bottom_top",
+        "textures": { 
+        	"top": "steamagerevolution:blocks/fluid_io_front", 
+        	"bottom": "steamagerevolution:blocks/machine_block",
+        	"side": "steamagerevolution:blocks/fluid_io_side",
+        	"particle": "#side" 
+        },
+        "transform": "forge:default-block"
+    },
+    "variants": {
+    	"normal": [{}],
+    	"inventory": [{}]
+    }
+} 	

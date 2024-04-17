@@ -1,0 +1,18 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "top": "steamagerevolution:blocks/grinder_frame_top", 
+       "bottom": "steamagerevolution:blocks/fume_collector_bottom",
+        "side": "steamagerevolution:blocks/grinder_output_side",
+        "particle": "#side" 
+    },
+    "model": "cube_bottom_top",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "normal": [{}],
+    "inventory": [{}]
+  }
+}

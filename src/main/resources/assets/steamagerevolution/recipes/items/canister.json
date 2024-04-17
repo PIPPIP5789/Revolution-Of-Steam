@@ -1,0 +1,23 @@
+{
+    "type": "forge:ore_shaped",
+    "group": "steamagerevolution:other",
+    "pattern": [
+    "BBB",
+    "GGG",
+    "BBB"
+  	],
+    "key": {
+    "B": {
+      "type": "forge:ore_dict",
+      "ore": "ingotBrass"
+    },
+    "G": {
+    	"type": "forge:ore_dict",
+    	"ore": "paneGlass"
+    }
+  },
+    "result": {
+        "item": "steamagerevolution:canister",
+        "data": 0
+    }
+}

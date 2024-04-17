@@ -1,0 +1,12 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "anvil_undamaged",
+        "textures": { "body": "steamagerevolution:blocks/steel_block", "top": "#body" },
+        "transform": "forge:default-block"
+    },
+    "variants": {
+    	"normal": [{}],
+    	"inventory": [{}]
+    }
+} 	

@@ -1,0 +1,23 @@
+{
+    "type": "forge:ore_shaped",
+    "group": "steamagerevolution:other",
+    "pattern": [
+    "BBB",
+    "BHB",
+    "BBB"
+  	],
+    "key": {
+    "B": {
+      "type": "forge:ore_dict",
+      "ore": "ingotBrickNether"
+    },
+    "H": {
+      "item": "steamagerevolution:fluid_hopper",
+      "data": 0
+    }
+  },
+    "result": {
+        "item": "steamagerevolution:steelworks_iron_input",
+        "data": 0
+    }
+}

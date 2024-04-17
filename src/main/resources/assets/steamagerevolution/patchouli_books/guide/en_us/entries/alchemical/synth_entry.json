@@ -1,0 +1,11 @@
+{
+    "name": "Material Synthesis",
+    "icon": "minecraft:slimeball",
+    "category": "alchemical_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Vats may also be used to synthesise uncommon materials. Combining lava and redstone dust will produce liquid glowstone, which can then be solidified in the casting block. Combining water, sugar, dirt and rotten flesh will synthesise slime which may then be distilled into its solid form. Adding redstone to sulphuric acid will result in lava and glowstone dust."
+        }
+    ]
+}

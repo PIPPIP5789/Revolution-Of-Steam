@@ -1,0 +1,41 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "cube_all",
+        "textures": { "all": "steamagerevolution:blocks/steel_block", "particle": "#all", "bottom": "#all", "top": "#all", "side": "#all" },
+        "transform": "forge:default-block"
+    },
+    "variants": {
+    	"position": {
+    		"unknown": {},
+    		"interior": {},
+    		"frame_corner_north_east_top": { "model": "steamagerevolution:cap_corner", "y": 270},
+    		"frame_corner_north_west_top": { "model": "steamagerevolution:cap_corner", "y": 180 },
+    		"frame_corner_south_east_top": { "model": "steamagerevolution:cap_corner" },
+    		"frame_corner_south_west_top": { "model": "steamagerevolution:cap_corner", "y": 90 },
+    		"frame_corner_north_east_bottom": { "model": "steamagerevolution:wide_corner", "y": 270},
+    		"frame_corner_north_west_bottom": { "model": "steamagerevolution:wide_corner", "y": 180 },
+    		"frame_corner_south_east_bottom": { "model": "steamagerevolution:wide_corner" },
+    		"frame_corner_south_west_bottom": { "model": "steamagerevolution:wide_corner", "y": 90 },
+    		"frame_north_top": { "model": "steamagerevolution:bar", "y": 180},
+    		"frame_south_top": { "model": "steamagerevolution:bar"},
+    		"frame_east_top": { "model": "steamagerevolution:bar", "y": 270},
+    		"frame_west_top": { "model": "steamagerevolution:bar", "y": 90},
+    		"frame_vertical_north_east": { "model": "steamagerevolution:corner", "y": 270},
+    		"frame_vertical_north_west": { "model": "steamagerevolution:corner", "y": 180 },
+    		"frame_vertical_south_east": { "model": "steamagerevolution:corner" },
+    		"frame_vertical_south_west": { "model": "steamagerevolution:corner", "y": 90 },
+    		"frame_north_bottom": { "model": "steamagerevolution:stairs", "y": 270},
+    		"frame_south_bottom": { "model": "steamagerevolution:stairs", "y": 90},
+    		"frame_east_bottom": { "model": "steamagerevolution:stairs"},
+    		"frame_west_bottom": { "model": "steamagerevolution:stairs", "y": 180 },
+    		"top_face": {},
+    		"bottom_face": {},
+    		"north_face": {},
+    		"south_face": {},
+    		"east_face": {},
+    		"west_face": {}
+    	},
+    	"inventory": [{}]
+    }
+} 	

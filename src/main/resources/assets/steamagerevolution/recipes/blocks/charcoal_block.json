@@ -1,0 +1,19 @@
+{
+     "type": "forge:ore_shaped",
+    "group": "steamagerevolution:other",
+    "pattern": [
+    "XXX",
+    "XXX",
+    "XXX"
+  	],
+    "key": {
+    "X": {
+    	"type": "forge:ore_dict",
+    	"ore": "charcoal"
+    }
+  },
+    "result": {
+        "item": "steamagerevolution:charcoal_block",
+        "data": 0
+    }
+}

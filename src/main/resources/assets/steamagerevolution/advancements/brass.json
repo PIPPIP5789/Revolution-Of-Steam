@@ -1,0 +1,40 @@
+{
+"display": {
+		"icon": {
+			"item": "minecraft:iron_ingot"
+		},
+		"title": {
+			"translate": "advancement.steamagerevolution.brass"
+		},
+		"description": {
+			"translate": "advancement.steamagerevolution.brass.desc"
+		},
+		"show_toast": true,
+		"announce_to_chat": false	
+	},
+	"parent": "steamagerevolution:hammer",
+	"criteria": {
+		"dust": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"type": "forge:ore_dict",
+						"ore": "dustBrass"
+					}
+				]
+			}
+		},
+		"ingot": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"type": "forge:ore_dict",
+						"ore": "ingotBrass"
+					}
+				]
+			}
+		}
+	}
+}

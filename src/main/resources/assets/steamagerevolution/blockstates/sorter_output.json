@@ -1,0 +1,104 @@
+{
+	"forge_marker": 1,
+	"defaults": {
+		"textures": {
+			"all": "steamagerevolution:blocks/sorter_output_white"
+		},
+		"model": "cube_all",
+		"uvlock": true,
+		"transform": "forge:default-block"
+	},
+	"variants": {
+		"color": {
+			"black": {
+				"textures": {
+					"all": "steamagerevolution:blocks/sorter_output_blask"
+				}
+			},
+			"blue": {
+				"textures": {
+					"all": "steamagerevolution:blocks/sorter_output_blue"
+				}
+			},
+			"brown": {
+				"textures": {
+					"all": "steamagerevolution:blocks/sorter_output_brown"
+				}
+			},
+			"cyan": {
+				"textures": {
+					"all": "steamagerevolution:blocks/sorter_output_cyan"
+				}
+			},
+			"gray": {
+				"textures": {
+					"all": "steamagerevolution:blocks/sorter_output_gray"
+				}
+			},
+			"green": {
+				"textures": {
+					"all": "steamagerevolution:blocks/sorter_output_green"
+				}
+			},
+			"light_blue": {
+				"textures": {
+					"all": "steamagerevolution:blocks/sorter_output_light_blue"
+				}
+			},
+			"lime": {
+				"textures": {
+					"all": "steamagerevolution:blocks/sorter_output_lime"
+				}
+			},
+			"magenta": {
+				"textures": {
+					"all": "steamagerevolution:blocks/sorter_output_magenta"
+				}
+			},
+			"orange": {
+				"textures": {
+					"all": "steamagerevolution:blocks/sorter_output_orange"
+				}
+			},
+			"pink": {
+				"textures": {
+					"all": "steamagerevolution:blocks/sorter_output_pink"
+				}
+			},
+			"purple": {
+				"textures": {
+					"all": "steamagerevolution:blocks/sorter_output_purple"
+				}
+			},
+			"red": {
+				"textures": {
+					"all": "steamagerevolution:blocks/sorter_output_red"
+				}
+			},
+			"silver": {
+				"textures": {
+					"all": "steamagerevolution:blocks/sorter_output_silver"
+				}
+			},
+			"yellow": {
+				"textures": {
+					"all": "steamagerevolution:blocks/sorter_output_yellow"
+				}
+			},
+			"white": {
+				"textures": {
+					"all": "steamagerevolution:blocks/sorter_output_white"
+				}
+			}
+			
+		},
+		"normal": [
+			{
+			}
+		],
+		"inventory": [
+			{
+			}
+		]
+	}
+}

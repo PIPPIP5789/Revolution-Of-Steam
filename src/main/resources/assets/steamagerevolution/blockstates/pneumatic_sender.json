@@ -1,0 +1,28 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "steamagerevolution:pneumatic_tube",
+        "textures": { "main": "steamagerevolution:blocks/distiller_tank", "particle": "#main" }
+    },
+    "variants": {
+    	"inventory": [{}],
+    	"facing": { 
+    		"up": {
+    			"x": 90
+    		},
+    		"down": {
+    			"x": -90
+    		},
+    		"east": {
+    			"y": 90
+    		},
+    		"west": {
+    			"y": -90
+    		},
+    		"north": {
+    			"y": 180
+    		},
+    		"south": {}
+    	}
+    }
+} 	

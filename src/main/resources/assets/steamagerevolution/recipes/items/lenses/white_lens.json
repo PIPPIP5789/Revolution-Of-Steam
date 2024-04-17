@@ -1,0 +1,26 @@
+{
+    "type": "forge:ore_shaped",
+    "group": "steamagerevolution:other",
+    "pattern": [
+    "MBM",
+    "BGB",
+    "MBM"
+  	],
+    "key": {
+    "B": {
+      "type": "forge:ore_dict",
+      "ore": "plateBrass"
+    },
+    "G": {
+    	"type": "forge:ore_dict",
+      	"ore": "paneGlassColorless"
+    },
+    "M": {
+ 		"item": "minecraft:milk_bucket"   
+    }
+  },
+    "result": {
+        "item": "steamagerevolution:lens",
+        "data": 0
+    }
+}

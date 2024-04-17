@@ -1,0 +1,20 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "steamagerevolution:pneumatic_tube",
+        "textures": { "main": "steamagerevolution:blocks/brass_block", "particle": "#main" }
+    },
+    "variants": {
+    	"inventory": [{}],
+    	"axis": {
+    		"y": {
+    			"x": 90
+    		},
+    		"z": {},
+    		"x": {
+    			"y": 90
+    		},
+    		"none": {}
+    	}
+    }
+} 	

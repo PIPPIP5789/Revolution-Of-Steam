@@ -1,0 +1,15 @@
+{
+    "name": "Clockwork Wings",
+    "icon": "steamagerevolution:clockwork_wings",
+    "category": "armory_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "§oDon't fly too close to the sun, Icarus§r $(br)The clockwork wings provide a very rudimentary form of flight. By repeatedly tapping $(k:key.jump) the player can move vertically, and then holding $(k:key.sneak) will allow them to glide downwards. This glide is slower than with $(item)Elytra$()."
+        },
+        {
+            "type": "text",
+            "text": "Furthermore, the player cannot boost themselves above Y160, and the process of manually flapping the wings is very labour intensive meaning it will drain hunger very fast. Provided the player has energy left, the wings will also protect the player from fall damage."
+        }
+    ]
+}

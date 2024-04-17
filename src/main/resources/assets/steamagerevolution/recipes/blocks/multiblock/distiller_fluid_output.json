@@ -1,0 +1,23 @@
+{
+    "type": "forge:ore_shaped",
+    "group": "steamagerevolution:other",
+    "pattern": [
+    "CCC",
+    "CHC",
+    "CCC"
+  	],
+    "key": {
+    "C": {
+      "type": "forge:ore_dict",
+      "ore": "plateZinc"
+    },
+    "H": {
+    	"item": "steamagerevolution:fluid_hopper",
+    	"data": 0
+    }
+  },
+    "result": {
+        "item": "steamagerevolution:distiller_fluid_output",
+        "data": 0
+    }
+}

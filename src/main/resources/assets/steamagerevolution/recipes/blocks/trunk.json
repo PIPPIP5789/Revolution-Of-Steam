@@ -1,0 +1,25 @@
+{
+    "type": "forge:ore_shaped",
+    "pattern": [
+    "BBB",
+    "WCW",
+    "BBB"
+  	],
+    "key": {
+    "C": {
+      "item": "minecraft:chest"
+    },
+    "B": {
+      "type": "forge:ore_dict",
+      "ore": "ingotBrass"
+    },
+    "W": {
+    	"type": "forge:ore_dict",
+    	"ore": "plankWood"
+    }
+  },
+    "result": {
+        "item": "steamagerevolution:trunk",
+        "data": 0
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "name": "Seam Miner Cart",
+    "icon": "steamagerevolution:minecart_drilling",
+    "category": "mining_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "This minecart is designed to run along the long edge of an ore seam. On a powered activator rail, it attempts to mine the block to it's left, slightly slower than a player."
+        },
+        {
+            "type": "crafting",
+            "recipe": "steamagerevolution:items/drilling_cart"
+        }
+    ]
+}

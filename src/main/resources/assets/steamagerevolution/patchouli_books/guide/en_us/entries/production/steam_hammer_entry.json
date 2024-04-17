@@ -1,0 +1,17 @@
+{
+    "name": "Steam Hammer",
+    "icon": "steamagerevolution:steamhammer_frame",
+    "category": "production_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The Steam Hammer, much like its smaller handheld brother, smashes things. It replaces the function of said handheld brother, and can also pulverise stone into cobblestone, and then further into sand and gravel. Further to this, the hammer can also be used to reshape objects rather than simply 'deconstructing' them."
+        },
+        {
+            "type": "image",
+            "images": ["steamagerevolution:textures/images/steam_hammer.png"],
+            "border": true,
+            "text": "Shielding can optionally be placed into the sides of the hammer to prevent things wandering into the crush zone."
+        }
+    ]
+}

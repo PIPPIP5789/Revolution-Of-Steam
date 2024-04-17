@@ -1,0 +1,16 @@
+{
+    "name": "Distiller",
+    "icon": "steamagerevolution:distiller_frame",
+    "category": "alchemical_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The $(thing)Distiller$() allows metal solutions created in the Vat to be turned into solid metal crystals that can then be smelted. To build a Distiller, the bottom layer must be radiator blocks into which steam is piped, the layer above has to be hotplate blocks to distribute the heat, and then a tank needs to be built on top (using Distiller Tank blocks) with inputs and outputs placed into the tank."
+        },
+        {
+            "type": "image",
+            "images": ["steamagerevolution:textures/images/distiller.png"],
+            "border": true
+        }
+    ]
+}

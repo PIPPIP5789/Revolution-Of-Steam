@@ -1,0 +1,11 @@
+{
+    "name": "Industrial Potions",
+    "icon": "steamagerevolution:flask",
+    "category": "alchemical_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Potions can be brewed at an industrial scale using vats. Fill the vat with water and then throw in nether wart to make the Awkward Solution. Any potion may be created by this method. To consume these potions, a FluidIO can place them into a Flask, which will hold three buckets worth of the potion. Potions are drunk a bucket at a time."
+        }
+    ]
+}

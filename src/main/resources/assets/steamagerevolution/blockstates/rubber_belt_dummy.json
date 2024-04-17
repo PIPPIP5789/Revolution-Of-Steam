@@ -1,0 +1,33 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "steamagerevolution:belt_dummy",
+        "textures": { "main": "minecraft:blocks/hopper_outside" }
+    },
+    "variants": {
+    	"facing": { 
+    		"up": { 
+    			"x": 90 
+    		},
+    		"down": {
+    			"x": -90
+    		},
+    		"east": {
+    			"x": 180
+    		},
+    		"west": {},
+    		"north": {
+    			"y": 90
+    		},
+    		"south": {
+    			"y": -90
+    		}
+    	},
+    	"spinning": {
+    		"true": {
+    			"textures": { "main": "minecraft:blocks/hopper_inside" }
+    		},
+    		"false": {}
+    	}
+    }
+} 	

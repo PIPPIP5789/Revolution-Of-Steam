@@ -1,0 +1,11 @@
+{
+    "name": "Drills",
+    "icon": "steamagerevolution:iron_drill",
+    "category": "armory_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "$(item)Drills$() are powerful excavation tools that tear through anything a pickaxe or shovel would be able to mine. Except since they are designed for bulk mining rather than the (comparative) finess of a pickaxe - they cannot mine ores. They excavate a $(thing)3x3 area$() and lose durability accordingly. Use with caution."
+        }
+    ]
+}

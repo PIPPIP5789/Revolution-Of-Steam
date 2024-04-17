@@ -1,0 +1,27 @@
+{
+    "type": "forge:ore_shaped",
+    "group": "steamagerevolution:other",
+    "pattern": [
+    "BGB",
+    "GCG",
+    "BGB"
+  	],
+    "key": {
+    "B": {
+      "type": "forge:ore_dict",
+      "ore": "plateBrass"
+    },
+    "G": {
+      "type": "forge:ore_dict",
+      "ore": "blockGlass"
+    },
+    "C": {
+    	"item": "steamagerevolution:canister",
+    	"data": 0
+    }
+  },
+    "result": {
+        "item": "steamagerevolution:boiler_gauge",
+        "data": 0
+    }
+}

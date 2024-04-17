@@ -1,0 +1,26 @@
+{
+    "type": "forge:ore_shaped",
+    "group": "steamagerevolution:other",
+    "pattern": [
+    "BIB",
+    "BCB",
+    "BBB"
+  	],
+    "key": {
+    "B": {
+      "type": "forge:ore_dict",
+      "ore": "ingotBrass"
+    },
+    "I": {
+    	"item": "minecraft:iron_trapdoor"
+    },
+    "C": {
+     	"item": "steamagerevolution:canister",
+     	"data": 0
+    }
+  },
+    "result": {
+        "item": "steamagerevolution:steam_vent",
+        "data": 0
+    }
+}

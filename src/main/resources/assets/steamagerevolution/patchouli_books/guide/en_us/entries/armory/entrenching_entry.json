@@ -1,0 +1,11 @@
+{
+    "name": "Entrenching Tool",
+    "icon": "steamagerevolution:entrenching_tool",
+    "category": "armory_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "An entrenching tool is a spade made for digging trenches - it excavates a three wide and two deep (rotated dependent on the side of the block you hit) hole. Also makes quite a good weapon in a pinch."
+        }
+    ]
+}

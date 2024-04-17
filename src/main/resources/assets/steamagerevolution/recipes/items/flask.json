@@ -1,0 +1,23 @@
+{
+    "type": "forge:ore_shaped",
+    "group": "steamagerevolution:other",
+    "pattern": [
+    " G ",
+    "G G",
+    "III"
+  	],
+    "key": {
+    "I": {
+      "type": "forge:ore_dict",
+      "ore": "plateIron"
+    },
+    "G": {
+    	"type": "forge:ore_dict",
+    	"ore": "paneGlass"
+    }
+  },
+    "result": {
+        "item": "steamagerevolution:flask",
+        "data": 0
+    }
+}

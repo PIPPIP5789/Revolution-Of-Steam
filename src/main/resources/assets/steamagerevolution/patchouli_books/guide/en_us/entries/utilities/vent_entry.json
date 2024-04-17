@@ -1,0 +1,11 @@
+{
+    "name": "Steam Vent",
+    "icon": "steamagerevolution:steam_vent",
+    "category": "utilities_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "On a redstone signal, consumes steam to shoot a hot steam jet in the direction it is facing, scalding all in its path. Right click with a wrench to adjust facing direction."
+        }
+    ]
+}

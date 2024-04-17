@@ -1,0 +1,18 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "cauldron_empty",
+        "textures": { 
+        	"top": "steamagerevolution:blocks/crucible_top",
+        	"side": "steamagerevolution:blocks/crucible_side",
+        	"bottom": "steamagerevolution:blocks/crucible_bottom",
+        	"inside": "steamagerevolution:blocks/crucible_inner",
+        	"particle": "#side" 
+        },
+        "transform": "forge:default-block"
+    },
+    "variants": {
+    	"normal": [{}],
+    	"inventory": [{}]
+    }
+} 	

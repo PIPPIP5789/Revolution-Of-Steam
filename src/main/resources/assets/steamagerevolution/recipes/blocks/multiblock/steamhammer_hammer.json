@@ -1,0 +1,27 @@
+{
+    "type": "forge:ore_shaped",
+    "group": "steamagerevolution:other",
+    "pattern": [
+    "PPP",
+    " I ",
+    " B "
+  	],
+    "key": {
+    "B": {
+      "type": "forge:ore_dict",
+      "ore": "blockIron"
+    },
+    "I": {
+    	"type": "forge:ore_dict",
+      "ore": "ingotIron"
+    },
+    "P": {
+    	"type": "forge:ore_dict",
+      "ore": "plateIron"
+    }
+  },
+    "result": {
+        "item": "steamagerevolution:steamhammer_hammer",
+        "data": 0
+    }
+}

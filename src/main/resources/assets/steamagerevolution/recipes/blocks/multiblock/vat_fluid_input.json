@@ -1,0 +1,27 @@
+{
+    "type": "forge:ore_shaped",
+    "group": "steamagerevolution:other",
+    "pattern": [
+    "FIF",
+    "IEI",
+    "FIF"
+  	],
+    "key": {
+    "F": {
+      "item": "steamagerevolution:vat_frame",
+        "data": 0
+    },
+    "I": {
+      "type": "forge:ore_dict",
+      "ore": "plateIron"
+    },
+    "E": {
+      "item": "steamagerevolution:fluid_hopper",
+      "data": 0
+    }
+  },
+    "result": {
+        "item": "steamagerevolution:vat_fluid_input",
+        "data": 0
+    }
+}

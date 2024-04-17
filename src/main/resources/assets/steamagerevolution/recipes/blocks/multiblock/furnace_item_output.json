@@ -1,0 +1,22 @@
+{
+    "type": "forge:ore_shaped",
+    "group": "steamagerevolution:other",
+    "pattern": [
+    "SSS",
+    "SHS",
+    "SSS"
+  	],
+    "key": {
+    "S": {
+      "type": "forge:ore_dict",
+      "ore": "plateSteel"
+    },
+    "H": {
+      "item": "minecraft:hopper"
+    }
+  },
+    "result": {
+        "item": "steamagerevolution:furnace_item_output",
+        "data": 0
+    }
+}

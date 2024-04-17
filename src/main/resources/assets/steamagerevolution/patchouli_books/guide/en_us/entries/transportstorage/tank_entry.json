@@ -1,0 +1,11 @@
+{
+    "name": "Tanks",
+    "icon": "steamagerevolution:tank_valve",
+    "category": "transportstorage_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "A variable size multiblock fluid tank. Must be built as a complete hollow cuboid, and the tank's capacity is determined by its interior volume. "
+        }
+    ]
+}

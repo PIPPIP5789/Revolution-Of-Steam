@@ -1,0 +1,6 @@
+{
+	"name": "Industrial Mining",
+	"description": "Prospect for high density ore deposits and dig them from the earth",
+	"icon": "steamagerevolution:grinder_input",
+    "sortnum": "-10"
+}

@@ -1,0 +1,27 @@
+{
+    "type": "forge:ore_shaped",
+    "group": "steamagerevolution:other",
+    "pattern": [
+    "DBD",
+    "BGB",
+    "DBD"
+  	],
+    "key": {
+    "B": {
+      "type": "forge:ore_dict",
+      "ore": "plateBrass"
+    },
+    "G": {
+    	"type": "forge:ore_dict",
+      	"ore": "paneGlassBlue"
+    },
+    "D": {
+    	"type": "forge:ore_dict",
+      	"ore": "gemDiamond"
+    }
+  },
+    "result": {
+        "item": "steamagerevolution:lens",
+        "data": 9
+    }
+}

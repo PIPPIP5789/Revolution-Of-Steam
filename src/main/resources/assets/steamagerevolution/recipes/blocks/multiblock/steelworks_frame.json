@@ -1,0 +1,19 @@
+{
+    "type": "forge:ore_shaped",
+    "group": "steamagerevolution:other",
+    "pattern": [
+    "BBB",
+    "BBB",
+    "BBB"
+  	],
+    "key": {
+    "B": {
+      "type": "forge:ore_dict",
+      "ore": "ingotBrickNether"
+    }
+  },
+    "result": {
+        "item": "steamagerevolution:steelworks_frame",
+        "data": 0
+    }
+}

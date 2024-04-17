@@ -1,0 +1,26 @@
+{
+    "type": "forge:ore_shaped",
+    "group": "steamagerevolution:other",
+    "pattern": [
+    " X ",
+    "XBX",
+    " S "
+  	],
+    "key": {
+    "X": {
+      "type": "forge:ore_dict",
+      "ore": "ingotIron"
+    },
+    "S": {
+      "type": "forge:ore_dict",
+      "ore": "stickWood"
+    },
+    "B": {
+      "item": "minecraft:iron_shovel"
+    }
+  },
+    "result": {
+        "item": "steamagerevolution:entrenching_tool",
+        "data": 0
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "type": "forge:ore_shaped",
+    "group": "steamagerevolution:other",
+    "pattern": [
+    "BBB",
+    "BCB",
+    "BBB"
+  	],
+    "key": {
+    "B": {
+      "type": "forge:ore_dict",
+      "ore": "plateBrass"
+    },
+    "C": {
+      "item": "minecraft:comparator"
+    }
+  },
+    "result": {
+        "item": "steamagerevolution:boiler_pressuremonitor",
+        "data": 0
+    }
+}

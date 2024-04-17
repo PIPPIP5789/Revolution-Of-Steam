@@ -1,0 +1,25 @@
+{
+    "type": "forge:ore_shaped",
+    "group": "steamagerevolution:other",
+    "pattern": [
+    "EBE",
+    "SSS"
+  	],
+    "key": {
+    "E": {
+      "item": "minecraft:bucket"
+    },
+    "B": {
+      "type": "forge:ore_dict",
+      "ore": "blockBrass"
+    },
+    "S": {
+    	"type": "forge:ore_dict",
+    	"ore": "plateBrass"
+    }
+  },
+    "result": {
+        "item": "steamagerevolution:fluid_io",
+        "data": 0
+    }
+}

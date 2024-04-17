@@ -1,0 +1,19 @@
+{
+    "type": "steamagerevolution:nbt_result",
+    "group": "steamagerevolution:materials",
+    "ingredients": [
+        {
+            "item": "minecraft:coal",
+            "data": 0
+        },
+        {
+            "item": "minecraft:book"
+        }
+    ],
+    "result": {
+        "item": "patchouli:guide_book",
+        "nbt": {
+            "patchouli:book": "steamagerevolution_guide"
+        }
+    }
+}

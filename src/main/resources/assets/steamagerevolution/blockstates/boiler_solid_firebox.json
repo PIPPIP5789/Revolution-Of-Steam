@@ -1,0 +1,17 @@
+{
+    "forge_marker": 1,
+    "defaults": {
+        "model": "cube_bottom_top",
+        "textures": { 
+        	"top": "steamagerevolution:blocks/solid_firebox_top", 
+        	"bottom": "steamagerevolution:blocks/solid_firebox_bottom",
+        	"side": "steamagerevolution:blocks/solid_firebox_side",
+        	"particle": "#side" 
+        },
+        "transform": "forge:default-block"
+    },
+    "variants": {
+    	"normal": [{}],
+    	"inventory": [{}]
+    }
+} 	

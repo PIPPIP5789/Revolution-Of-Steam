@@ -1,0 +1,40 @@
+{
+"display": {
+		"icon": {
+			"item": "minecraft:iron_pickaxe"
+		},
+		"title": {
+			"translate": "advancement.steamagerevolution.ore"
+		},
+		"description": {
+			"translate": "advancement.steamagerevolution.ore.desc"
+		},
+		"background": "steamagerevolution:textures/blocks/brass_frame.png",
+		"show_toast": true,
+		"announce_to_chat": false
+	},
+	"criteria": {
+		"ore": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"type": "forge:ore_dict",
+						"ore": "oreCopper"
+					}
+				]
+			}
+		},
+		"ore2": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"type": "forge:ore_dict",
+						"ore": "oreZinc"
+					}
+				]
+			}
+		}
+	}
+}

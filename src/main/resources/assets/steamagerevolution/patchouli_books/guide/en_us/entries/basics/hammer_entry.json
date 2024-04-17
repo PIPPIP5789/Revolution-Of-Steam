@@ -1,0 +1,15 @@
+{
+    "name": "The Hammer",
+    "icon": "steamagerevolution:hammer",
+    "category": "basics_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "§lRockbreaker!§r The hammer is used to break down materials into their constituent parts. In other words, smashing things to bits. This is particularly useful for $(thing)pulverising ores$() into dusts that can then be combined to allow $(thing)creation of alloys$().$(br)Soon, you will be able to build a machine that automates this repetitive rock breaking."
+        },
+        {
+            "type": "text",
+            "text": "The hammer is also useful in $(thing)shaping metals$() for use in machines - hammering ingots will create plates. In addition, the hammer can be used to $(thing)mine$() ore blocks in the world and they will drop dust."
+        }
+    ]
+}

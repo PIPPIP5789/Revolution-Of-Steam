@@ -1,0 +1,176 @@
+itemGroup.steamagerevolution=Steam Age Revolution
+
+# Parts
+steamagerevolution.part.solution=%s Solution
+steamagerevolution.part.lattice=%s Lattice
+steamagerevolution.part.heavy_ore=%s Heavy Ore
+steamagerevolution.part.heavy_ore_indicator=%s Heavy Ore Tell
+
+#Items
+item.steamagerevolution.charcoal_powder.name=Charcoal Powder
+
+item.steamagerevolution.canister.name=Fluid Canister
+
+item.steamagerevolution.hammer.name=Hammer
+
+item.steamagerevolution.die.gear.name=Gear Die
+item.steamagerevolution.die.test.name=TEST Die
+
+item.steamagerevolution.clockwork_wings.name=Clockwork Wings
+
+item.steamagerevolution.steam_sword.name=Steam-Powered Sword
+item.steamagerevolution.steam_pickaxe.name=Steam-Powered Pickaxe
+item.steamagerevolution.steam_shovel.name=Steam-Powered Shovel
+item.steamagerevolution.steam_axe.name=Steam-Powered Axe
+item.steamagerevolution.steam_hoe.name=Steam-Powered Hoe
+
+item.steamagerevolution.drill_base.name=Drill Base
+item.steamagerevolution.stone_drill.name=Stone Drill
+item.steamagerevolution.gold_drill.name=Gold Drill
+item.steamagerevolution.iron_drill.name=Iron Drill
+item.steamagerevolution.diamond_drill.name=Diamond Drill
+
+item.steamagerevolution.rocket_fist.name=Rocketfist
+item.steamagerevolution.entrenching_tool.name=Entrenching Tool
+
+item.steamagerevolution.flask.name=Flask
+
+item.steamagerevolution.lens.name=Lens
+item.steamagerevolution.goggles.name=Goggles
+
+item.steamagerevolution.minecart_drilling.name=Seam Miner Cart
+item.steamagerevolution.minecart_carrier.name=Ore Carrier Cart
+
+#Blocks
+tile.steamagerevolution.fluid_io.name=Fluid IO
+tile.steamagerevolution.casting_bench.name=Casting Block
+tile.steamagerevolution.trunk.name=Steamer Trunk
+tile.steamagerevolution.steam_vent.name=Steam Vent
+tile.steamagerevolution.fume_collector.name=Fume Collector
+
+tile.steamagerevolution.pneumatic_sender.name=Pneumatic Sender
+tile.steamagerevolution.pneumatic_tube.name=Pneumatic Tube
+tile.steamagerevolution.pneumatic_router.name=Pneumatic Router
+
+tile.steamagerevolution.boiler_casing.name=Boiler Casing
+tile.steamagerevolution.boiler_water_input.name=Boiler Water Input
+tile.steamagerevolution.boiler_pressuremonitor.name=Boiler Pressure Monitor
+tile.steamagerevolution.boiler_pressurevalve.name=Boiler Pressure Valve
+tile.steamagerevolution.boiler_solid_firebox.name=Boiler Solid Firebox
+tile.steamagerevolution.boiler_liquid_firebox.name=Boiler Liquid Firebox
+tile.steamagerevolution.boiler_steam_output.name=Boiler Steam Output
+tile.steamagerevolution.boiler_gauge.name=Boiler Gauge
+
+tile.steamagerevolution.steamhammer_hammer.name=Steam Hammer Head
+tile.steamagerevolution.steamhammer_frame.name=Steam Hammer Structure
+tile.steamagerevolution.steamhammer_anvil.name=Steam Hammer Anvil
+tile.steamagerevolution.steamhammer_shielding.name=Steam Hammer Shielding
+
+tile.steamagerevolution.tank_casing.name=Tank Casing
+tile.steamagerevolution.tank_valve.name=Tank Valve
+tile.steamagerevolution.tank_window.name=Tank Window
+
+tile.steamagerevolution.furnace_casing.name=Steam Furnace Casing
+tile.steamagerevolution.furnace_steaminput.name=Steam Furnace Injector
+
+tile.steamagerevolution.alloy_furnace_frame.name=Alloy Forge Frame
+tile.steamagerevolution.alloy_furnace_fluid_output.name=Alloy Forge Output
+tile.steamagerevolution.alloy_furnace_hard_frame.name=Alloy Forge Hardened Frame
+tile.steamagerevolution.alloy_furnace_fluid_input.name=Alloy Forge Input
+
+tile.steamagerevolution.furnace_casing.name=Steam Furnace Casing
+tile.steamagerevolution.furnace_item_input.name=Steam Furnace Item Input
+tile.steamagerevolution.furnace_item_output.name=Steam Furnace Item Output
+tile.steamagerevolution.furnace_steam_input.name=Steam Furnace Steam Input
+
+tile.steamagerevolution.crucible_item_input.name=Crucible Item Input
+tile.steamagerevolution.crucible_steam_input.name=Crucible Steam Input
+tile.steamagerevolution.crucible_fluid_output.name=Crucible Fluid Output
+tile.steamagerevolution.crucible_casing.name=Crucible Casing
+
+tile.steamagerevolution.steelworks_frame.name=Steelworks Frame
+tile.steamagerevolution.steelworks_carbon_input.name=Steelworks Carbon Input
+tile.steamagerevolution.steelworks_iron_input.name=Steelworks Iron Input
+tile.steamagerevolution.steelworks_steel_output.name=Steelworks Output
+tile.steamagerevolution.steelworks_steam_input.name=Steelworks Steam Input
+
+tile.steamagerevolution.kiln_frame.name=Kiln Frame
+tile.steamagerevolution.kiln_door.name=Kiln Door
+tile.steamagerevolution.kiln_steam_input.name=Kiln Steam Input
+tile.steamagerevolution.kiln_window.name=Kiln Window
+
+tile.steamagerevolution.vat_frame.name=Vat Frame
+tile.steamagerevolution.vat_output.name=Vat Output
+tile.steamagerevolution.vat_fluid_input.name=Vat Input
+
+tile.steamagerevolution.distiller_radiator.name=Distiller Radiator
+tile.steamagerevolution.distiller_hotplate.name=Distiller Hotplate
+tile.steamagerevolution.distiller_fluid_output.name=Distiller Fluid Output
+tile.steamagerevolution.distiller_frame.name=Distiller Tank
+tile.steamagerevolution.distiller_fluid_input.name=Distiller Fluid Input
+tile.steamagerevolution.distiller_item_output.name=Distiller Item Output
+
+tile.steamagerevolution.fluid_hopper.name=Fluid Hopper
+tile.steamagerevolution.charcoal_block.name=Charcoal Block
+tile.steamagerevolution.steam_vent.name=Steam Vent
+
+tile.steamagerevolution.grinder_frame.name=Grinder Frame
+tile.steamagerevolution.grinder_input.name=Grinder Blades
+tile.steamagerevolution.grinder_output.name=Grinder Output
+
+#Entities
+entity.entitydeadinventor.name=Dead Inventor
+entity.entityminecartdrilling.name=Seam Miner Cart
+entity.entityminecartcarrier.name=Carrier Cart
+
+#Advancements
+advancement.steamagerevolution.ore=A New Age
+advancement.steamagerevolution.ore.desc=Now craft a hammer
+advancement.steamagerevolution.hammer=Hammertime
+advancement.steamagerevolution.hammer.desc=Pulverise zinc and copper, combine the two...
+advancement.steamagerevolution.brass=Brass Monkeys
+advancement.steamagerevolution.brass.desc=A new material! The foundation of everything to come...
+
+#Multiblock validation
+steamagerevolution.multiblock.validation.missingrequired=Multiblock is missing required part: %s
+steamagerevolution.multiblock.validation.alloyforgeinterior=Interior of the alloy forge must be filled with lava
+steamagerevolution.multiblock.validation.distiller_radiator=Bottom layer of the Distiller must be composed entirely of radiator blocks
+steamagerevolution.multiblock.validation.distiller_hotplate=Second-from-bottom layer of the Distiller must be composed entirely of hotplate blocks
+
+#Machines
+steamagerevolution.machine.alloy_furnace=Alloy Furnace
+steamagerevolution.machine.boiler=Boiler
+steamagerevolution.machine.crucible=Crucible
+steamagerevolution.machine.distiller=Distiller
+steamagerevolution.machine.grinder=Grinder
+steamagerevolution.machine.steam_furnace=Steam Furnace
+steamagerevolution.machine.steam_hammer=Steam Hammer
+steamagerevolution.machine.steelworks=Steelworks
+steamagerevolution.machine.tank=Tank
+steamagerevolution.machine.vat=Vat
+steamagerevolution.machine.casting_bench=Casting Bench
+steamagerevolution.machine.fume_collector=Fume Collector
+steamagerevolution.machine.fluid_io=Fluid IO
+steamagerevolution.machine.fluid_hopper=Fluid Hopper
+
+#Other
+fluid.steam=Steam
+fluid.sulphur_dioxide=Sulphur Dioxide
+fluid.sulphuric_acid=Sulphuric Acid
+fluid.liquid_glowstone=Liquid Glowstone
+fluid.slime=Slime
+
+death.attack.hammer=%1$s was flattened.
+death.attack.gas=%1$s's lungs dissolved.
+death.attack.acid=%1$s became a part of the solution.
+death.attack.bullet=%1$s took a bullet to the knee.
+death.attack.grinder=%1$s got left in the dust.
+
+info.ticks=ticks
+info.seconds=seconds
+info.tempunit=°C
+
+sar.recipeerror.norecipe=No recipe
+
+sar.recipeerror.insufficientsteam=Insufficient Steam
+sar.recipeerror.outputspace=Not enough space in outputs

@@ -1,0 +1,16 @@
+{
+    "name": "Rocketfist!",
+    "icon": "steamagerevolution:rocket_fist",
+    "category": "armory_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Rocketfist! Because Rocketfist. Stupidly impractical weapon - but who cares! Fill it with steam, right click to boost yourself forward and left click on an entity to explode it. The explosion also damages you, and you're likely to take a lot of fall damage using this. Like I said, stupidly impractical. But try it..."
+        },
+        {
+            "type": "spotlight",
+            "item": "steamagerevolution:rocketfist",
+            "text": "Beware, though. This power comes at a price, and that price is Dead Inventors - skeletons that have rocketfists and know how to use them."
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "type": "forge:ore_shaped",
+    "group": "steamagerevolution:other",
+    "pattern": [
+    "BFB",
+    "B B",
+    "BFB"
+  	],
+    "key": {
+    "B": {
+      "type": "forge:ore_dict",
+      "ore": "plateIron"
+    },
+    "F": {
+      "item": "steamagerevolution:fluid_hopper",
+      "data": 0
+    }
+  },
+    "result": {
+        "item": "steamagerevolution:tank_valve",
+        "data": 0
+    }
+}

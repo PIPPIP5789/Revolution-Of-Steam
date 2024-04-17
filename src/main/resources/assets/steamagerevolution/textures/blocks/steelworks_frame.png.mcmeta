@@ -1,0 +1,10 @@
+{
+    "ctm":{
+        "ctm_version": 1,
+        "type":"CTM",
+        "layer":"SOLID",
+        "textures":[
+            "steamagerevolution:blocks/steelworks_frame_ctm"
+        ]
+    }
+}

@@ -1,0 +1,16 @@
+{
+  "forge_marker": 1,
+  "variants": {
+    "inventory": {
+      "model": "forge:forgebucket",
+      "textures": {
+        "base": "steamagerevolution:items/canister_empty",
+        "fluid": "steamagerevolution:items/canister_fluid"
+      },
+      "transform": "forge:default-item",
+      "custom": {
+        "fluid": "water"
+      }
+    }
+  }
+}

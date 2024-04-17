@@ -1,0 +1,22 @@
+{
+    "type": "forge:ore_shaped",
+    "group": "steamagerevolution:other",
+    "pattern": [
+    "HHH",
+    "IHI",
+    "III"
+  	],
+    "key": {
+    "I": {
+      "type": "forge:ore_dict",
+      "ore": "ingotIron"
+    },
+    "H": {
+    	"item": "minecraft:hopper"
+    }
+  },
+    "result": {
+        "item": "steamagerevolution:minecart_carrier",
+        "data": 0
+    }
+}

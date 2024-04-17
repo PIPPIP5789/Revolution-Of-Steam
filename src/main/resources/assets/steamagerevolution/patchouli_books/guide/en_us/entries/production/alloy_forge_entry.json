@@ -1,0 +1,16 @@
+{
+    "name": "Alloy Forge",
+    "icon": "steamagerevolution:alloy_furnace_fluid_output",
+    "category": "production_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The alloy forge is a much more efficient way of alloying metals than manually mixing the appropriate dusts and then smelting. It must contain lava, flowing or otherwise, completely filling its interior. Taking a base of molten copper and adding molten zinc will result in molten brass."
+        },
+        {
+            "type": "image",
+            "images": ["steamagerevolution:textures/images/alloy_forge.png"],
+            "border": true
+        }
+    ]
+}

@@ -1,0 +1,26 @@
+{
+    "type": "forge:ore_shaped",
+    "group": "steamagerevolution:other",
+    "pattern": [
+    "III",
+    "ICI",
+    "ITI"
+  	],
+    "key": {
+    "I": {
+      "type": "forge:ore_dict",
+      "ore": "ingotIron"
+    },
+    "T": {
+    	"item": "minecraft:iron_trapdoor"
+    },
+    "C": {
+     	"item": "steamagerevolution:canister",
+     	"data": 0
+    }
+  },
+    "result": {
+        "item": "steamagerevolution:fume_collector",
+        "data": 0
+    }
+}

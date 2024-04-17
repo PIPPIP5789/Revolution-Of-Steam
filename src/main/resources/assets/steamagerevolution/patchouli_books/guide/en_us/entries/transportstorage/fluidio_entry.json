@@ -1,0 +1,11 @@
+{
+    "name": "Fluid IO",
+    "icon": "steamagerevolution:fluid_io",
+    "category": "transportstorage_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The Fluid IO will transfer fluids from its internal buffers into items that can hold fluids such as buckets or canisters, and vice versa."
+        }
+    ]
+}

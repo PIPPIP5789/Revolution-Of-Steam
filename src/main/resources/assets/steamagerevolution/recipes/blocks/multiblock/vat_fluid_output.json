@@ -1,0 +1,26 @@
+{
+    "type": "forge:ore_shaped",
+    "group": "steamagerevolution:other",
+    "pattern": [
+    "FIF",
+    "IEI",
+    "FIF"
+  	],
+    "key": {
+    "F": {
+      "item": "steamagerevolution:vat_frame",
+        "data": 0
+    },
+    "I": {
+      "type": "forge:ore_dict",
+      "ore": "plateIron"
+    },
+    "E": {
+      "item": "minecraft:bucket"
+    }
+  },
+    "result": {
+        "item": "steamagerevolution:vat_output",
+        "data": 0
+    }
+}

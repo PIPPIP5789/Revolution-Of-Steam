@@ -1,0 +1,25 @@
+{
+    "type": "forge:ore_shaped",
+    "group": "steamagerevolution:other",
+    "pattern": [
+    "BEB",
+    "BFB",
+    "BBB"
+  	],
+    "key": {
+    "B": {
+      "type": "forge:ore_dict",
+      "ore": "plateBrass"
+    },
+    "E": {
+      "item": "minecraft:bucket"
+    },
+    "F": {
+      "item": "minecraft:furnace"
+    }
+  },
+    "result": {
+        "item": "steamagerevolution:boiler_liquid_firebox",
+        "data": 0
+    }
+}

@@ -1,0 +1,22 @@
+{
+    "type": "forge:ore_shaped",
+    "group": "steamagerevolution:other",
+    "pattern": [
+    "BBB",
+    "HBH",
+    "BBB"
+  	],
+    "key": {
+    "B": {
+      "type": "forge:ore_dict",
+      "ore": "plateBrass"
+    },
+    "H": {
+      "item": "minecraft:hopper"
+    }
+  },
+    "result": {
+        "item": "steamagerevolution:pneumatic_router",
+        "data": 0
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "type": "forge:ore_shaped",
+    "group": "steamagerevolution:other",
+    "pattern": [
+    "ICI",
+    "C C",
+    "ICI"
+  	],
+    "key": {
+    "C": {
+      "type": "forge:ore_dict",
+      "ore": "plateCopper"
+    },
+    "I": {
+    	"type": "forge:ore_dict",
+      	"ore": "ingotIron"
+    }
+  },
+    "result": {
+        "item": "steamagerevolution:distiller_frame",
+        "data": 0
+    }
+}

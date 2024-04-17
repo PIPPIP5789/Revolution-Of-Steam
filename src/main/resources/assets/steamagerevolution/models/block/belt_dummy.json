@@ -1,0 +1,33 @@
+{
+    "__comment": "Model generated using MrCrayfish's Model Creator (http://mrcrayfish.com/modelcreator/)",
+    "textures": {
+    },
+    "elements": [
+        {
+            "name": "bottom",
+            "from": [ 0.0, 1.0, 1.0 ], 
+            "to": [ 16.0, 2.0, 15.0 ], 
+            "faces": {
+                "north": { "texture": "#main", "uv": [ 0.0, 0.0, 16.0, 1.0 ] },
+                "east": { "texture": "#main", "uv": [ 0.0, 0.0, 14.0, 1.0 ] },
+                "south": { "texture": "#main", "uv": [ 0.0, 0.0, 16.0, 1.0 ] },
+                "west": { "texture": "#main", "uv": [ 0.0, 0.0, 14.0, 1.0 ] },
+                "up": { "texture": "#main", "uv": [ 0.0, 0.0, 16.0, 14.0 ] },
+                "down": { "texture": "#main", "uv": [ 0.0, 0.0, 16.0, 14.0 ] }
+            }
+        },
+        {
+            "name": "top",
+            "from": [ 0.0, 14.0, 1.0 ], 
+            "to": [ 16.0, 15.0, 15.0 ], 
+            "faces": {
+                "north": { "texture": "#main", "uv": [ 0.0, 0.0, 16.0, 1.0 ] },
+                "east": { "texture": "#main", "uv": [ 0.0, 0.0, 14.0, 1.0 ] },
+                "south": { "texture": "#main", "uv": [ 0.0, 0.0, 16.0, 1.0 ] },
+                "west": { "texture": "#main", "uv": [ 0.0, 0.0, 14.0, 1.0 ] },
+                "up": { "texture": "#main", "uv": [ 0.0, 0.0, 16.0, 14.0 ] },
+                "down": { "texture": "#main", "uv": [ 0.0, 0.0, 16.0, 14.0 ] }
+            }
+        }
+    ]
+}

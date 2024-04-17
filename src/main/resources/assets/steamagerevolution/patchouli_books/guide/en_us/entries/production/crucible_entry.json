@@ -1,0 +1,21 @@
+{
+    "name": "Crucible",
+    "icon": "steamagerevolution:crucible_steam_input",
+    "category": "production_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "§oBy fire!§r The crucible is a multiblock used to melt metals of all shapes so that it may more easily feed other machines. Built mainly of copper to ensure heat is conducted efficiently and fed by steam from boilers. Unlike other smeltery designs you may be familiar with, the crucible is enclosed on all six sides. Item and steam inputs, and fluid outputs, may be placed anywhere in the crucible's"
+        },
+        {
+            "type": "image",
+            "images": ["steamagerevolution:textures/images/crucible.png"],
+            "border": true,
+            "text": "structure except in the outer frame. Should one wish to undo the Crucible's"
+        },
+        {
+            "type": "text",
+            "text": "work the $(l:production/casting_block_entry)Casting Block$() will be of use."
+        }
+    ]
+}

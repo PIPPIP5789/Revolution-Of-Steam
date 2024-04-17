@@ -1,0 +1,17 @@
+{
+    "name": "Steelworks",
+    "icon": "steamagerevolution:steelworks_frame",
+    "category": "production_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "While brass is an extremely versatile material, some applications require more strength. Constructing a machine from heat-resistant materials found in the Nether allows you to safely attain the high temperatures required for the production of steel. Given a working pool of molten iron equivalent to nine blocks $(thing)(11664mB)$() and provided with carbon and injected steam, "
+        },
+        {
+            "type": "image",
+            "images": ["steamagerevolution:textures/images/steelworks.png"],
+            "border": true,
+            "text": "molten steel will be output at a rate of one nugget per operation."
+        }
+    ]
+}

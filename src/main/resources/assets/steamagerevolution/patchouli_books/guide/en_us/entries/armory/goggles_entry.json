@@ -1,0 +1,19 @@
+{
+    "name": "Goggles",
+    "icon": "steamagerevolution:goggles",
+    "category": "armory_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The brass $(item)Goggles$() aren't just stylish. By inserting various kinds of $(item)Lenses$() a range of vision-related functionality can eb addded to the goggles, from blindness protection to night vision to fog removal."
+        },
+        {
+            "type": "crafting",
+            "recipe": "steamagerevolution:goggles"
+        },
+        {
+            "type": "crafting",
+            "recipe": "steamagerevolution:blue_lens"
+        }
+    ]
+}

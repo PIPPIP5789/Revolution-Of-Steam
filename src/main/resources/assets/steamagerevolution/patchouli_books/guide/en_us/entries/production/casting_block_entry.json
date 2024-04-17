@@ -1,0 +1,15 @@
+{
+    "name": "Casting Block",
+    "icon": "steamagerevolution:casting_bench",
+    "category": "production_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The Casting Block does the opposite of the $(l:production/crucible_entry)Crucible$(), taking molten metal and allowing it to cool into solid blocks for crafting usage or further refinement. $(thing)1296mB$() of molten metal is required to make a full block."
+        },
+        {
+            "type": "crafting",
+            "recipe": "steamagerevolution:casting_block"
+        }
+    ]
+}

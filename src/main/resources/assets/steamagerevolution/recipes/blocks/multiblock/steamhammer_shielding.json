@@ -1,0 +1,23 @@
+{
+    "type": "forge:ore_shaped",
+    "group": "steamagerevolution:other",
+    "pattern": [
+    "GBG",
+    "BGB",
+    "GBG"
+  	],
+    "key": {
+    "B": {
+      "type": "forge:ore_dict",
+      "ore": "plateIron"
+    },
+    "G": {
+    	"type": "forge:ore_dict",
+    	"ore": "blockGlass"
+    }
+  },
+    "result": {
+        "item": "steamagerevolution:steamhammer_shielding",
+        "data": 0
+    }
+}

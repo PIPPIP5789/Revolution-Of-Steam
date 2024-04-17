@@ -1,0 +1,11 @@
+{
+    "name": "Powered Tools",
+    "icon": "steamagerevolution:steam_pickaxe",
+    "category": "armory_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "Unbreakable tools fuelled by harnessing the raw power of steam. Fill the tool's internal buffer with a Fluid IO or equivalent, and use like any other tool. When the internal tank empties and the tool stops functioning, simply re-fill. Easy."
+        }
+    ]
+}

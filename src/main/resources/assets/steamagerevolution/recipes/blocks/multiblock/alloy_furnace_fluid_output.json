@@ -1,0 +1,22 @@
+{
+    "type": "forge:ore_shaped",
+    "group": "steamagerevolution:other",
+    "pattern": [
+    "BBB",
+    "BEB",
+    "BBB"
+  	],
+    "key": {
+    "B": {
+      "type": "forge:ore_dict",
+      "ore": "ingotBrick"
+    },
+    "E": {
+      "item": "minecraft:bucket"
+    }
+  },
+    "result": {
+        "item": "steamagerevolution:alloy_furnace_fluid_output",
+        "data": 0
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "type": "forge:ore_shaped",
+    "group": "steamagerevolution:other",
+    "pattern": [
+    " I ",
+    "I I",
+    "III"
+  	],
+    "key": {
+    "I": {
+      "type": "forge:ore_dict",
+      "ore": "plateIron"
+    }
+  },
+    "result": {
+        "item": "steamagerevolution:drill_base",
+        "data": 0
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "name": "Steam Boiler",
+    "icon": "steamagerevolution:boiler_solid_firebox",
+    "category": "production_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The hissing heart of any Steampunk's factory. Squat and brassy, this multiblock is to be fed fuel through fireboxes placed in the bottom, and water through the sides. Steam is then output from either the sides or top of the boiler. Warning! Don't let the boiler sit idle without anywhere to output its steam else pressure will begin to build up. That may have explosive results."
+        },
+        {
+            "type": "text",
+            "text": "Pressure monitors allow you to detect this by emitting a redstone signal of strength relative to pressure and valves will release pressure when given a redstone signal. The use of valves is wasteful since it allows steam to escape."
+        },
+        {
+            "type": "multiblock",
+            "multiblock": {"pattern": [
+        [ "FFF", "FFF", "FFF" ],
+        [ "FGF", "F0F", "FFF" ],
+        [ "FFF", "FBF", "FFF" ]
+        ],
+    "mapping": {
+        "F": "steamagerevolution:boiler_casing",
+        "B": "steamagerevolution:boiler_solid_firebox",
+        "G": "steamagerevolution:boiler_gauge"
+    }
+}
+        }
+    ]
+}

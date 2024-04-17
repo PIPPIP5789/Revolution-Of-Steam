@@ -1,0 +1,17 @@
+{
+    "name": "Prospecting",
+    "icon": "minecraft:gold_ingot",
+    "category": "mining_category",
+    "priority": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Very rarely, you may come across a 'tell' - a small glint of ore embedded in rock. It signifies a rich ore deposit hidden in the rocks around you. Right click the tell with a $(item)Hammer$() and a $(thing)Heavy Ore Seam$() will be revealed in the surrounding stone."
+        },
+        {
+            "type": "spotlight",
+            "item": "steamagerevolution:copper_heavy_ore_indicator",
+            "text": "Heavy ore seams are hugely dense deposits of ore. Each block can be mined repeatedly, but as a tradeoff it takes a long time. The ore will drop ore-rich rock, which does not stack...except in the minecarts designed to handle it. It is probably worth setting up outposts to mine out these ore seams."
+        }
+    ]
+}

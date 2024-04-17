@@ -1,0 +1,19 @@
+{
+    "type": "forge:ore_shaped",
+    "group": "steamagerevolution:other",
+    "pattern": [
+    "BBB",
+    "BBB",
+    "BBB"
+  	],
+    "key": {
+    "B": {
+      "type": "forge:ore_dict",
+      "ore": "ingotBrick"
+    }
+  },
+    "result": {
+        "item": "steamagerevolution:alloy_furnace_frame",
+        "data": 0
+    }
+}

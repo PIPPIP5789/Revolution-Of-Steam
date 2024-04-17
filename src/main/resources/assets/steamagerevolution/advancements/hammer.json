@@ -1,0 +1,28 @@
+{
+"display": {
+		"icon": {
+			"item": "steamagerevolution:hammer"
+		},
+		"title": {
+			"translate": "advancement.steamagerevolution.hammer"
+		},
+		"description": {
+			"translate": "advancement.steamagerevolution.hammer.desc"
+		},
+		"show_toast": true,
+		"announce_to_chat": false	
+	},
+	"parent": "steamagerevolution:ore",
+	"criteria": {
+		"hold_hammer": {
+			"trigger": "minecraft:inventory_changed",
+			"conditions": {
+				"items": [
+					{
+						"item": "steamagerevolution:hammer"
+					}
+				]
+			}
+		}
+	}
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Proper Machines",
+    "icon": "steamagerevolution:steamhammer_anvil",
+    "category": "production_category",
+    "priority": true,
+    "pages": [
+        {
+            "type": "text",
+            "text": "Many processes are too complex to take place within the confines of a single block space. Thus you must create multiblocks by placing a series of machine blocks in the world, in a particular shape. This is often rectangular. You can shift-right-click on any multiblock part and it will tell you the multiblock's status."
+        },
+{
+            "type": "relations",
+            "title": "Multiblocks",
+            "entries": ["steamagerevolution:production/alloy_forge_entry", "steamagerevolution:production/boiler_entry", "steamagerevolution:production/crucible_entry", "steamagerevolution:production/steam_hammer_entry", "steamagerevolution:production/steelworks_entry", "steamagerevolution:alchemical/vat_entry", "steamagerevolution:alchemical/distiller_entry", "steamagerevolution:mining/grinder"]
+        }
+    ]
+}

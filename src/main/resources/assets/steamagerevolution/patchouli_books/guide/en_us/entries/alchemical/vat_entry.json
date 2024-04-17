@@ -1,0 +1,11 @@
+{
+    "name": "Creating Vats",
+    "icon": "steamagerevolution:vat_Frame",
+    "category": "alchemical_category",
+    "pages": [
+        {
+            "type": "text",
+            "text": "The vat is a large open tank designed for mixing fluids and items. One of the vat's main functions is making ore processing more effective via the use of sulphuric acid. Sulphuric acid dissolves the ore into solution which can then be distilled to return some of the sulphuric acid and crystalline metal. This crystal must then be smelted to make it less brittle."
+        }
+    ]
+}

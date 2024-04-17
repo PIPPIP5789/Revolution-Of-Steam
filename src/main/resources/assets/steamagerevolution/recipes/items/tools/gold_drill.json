@@ -1,0 +1,22 @@
+{
+    "type": "forge:ore_shaped",
+    "group": "steamagerevolution:other",
+    "pattern": [
+    " X ",
+    "XXX",
+    " B "
+  	],
+    "key": {
+    "X": {
+      "type": "forge:ore_dict",
+      "ore": "ingotGold"
+    },
+    "B": {
+      "item": "steamagerevolution:drill_base"
+    }
+  },
+    "result": {
+        "item": "steamagerevolution:gold_drill",
+        "data": 0
+    }
+}

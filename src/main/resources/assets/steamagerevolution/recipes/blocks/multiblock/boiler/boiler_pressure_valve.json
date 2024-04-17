@@ -1,0 +1,22 @@
+{
+    "type": "forge:ore_shaped",
+    "group": "steamagerevolution:other",
+    "pattern": [
+    "BIB",
+    "B B",
+    "BIB"
+  	],
+    "key": {
+    "B": {
+      "type": "forge:ore_dict",
+      "ore": "plateBrass"
+    },
+    "I": {
+      "item": "minecraft:iron_trapdoor"
+    }
+  },
+    "result": {
+        "item": "steamagerevolution:boiler_pressurevalve",
+        "data": 0
+    }
+}

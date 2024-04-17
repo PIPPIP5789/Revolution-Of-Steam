@@ -1,0 +1,21 @@
+{
+    "type": "forge:ore_shaped",
+    "group": "steamagerevolution:other",
+    "pattern": [
+    " X ",
+    "XXX",
+    " B "
+  	],
+    "key": {
+    "X": {
+      "item": "minecraft:diamond"
+    },
+    "B": {
+      "item": "steamagerevolution:drill_base"
+    }
+  },
+    "result": {
+        "item": "steamagerevolution:diamond_drill",
+        "data": 0
+    }
+}

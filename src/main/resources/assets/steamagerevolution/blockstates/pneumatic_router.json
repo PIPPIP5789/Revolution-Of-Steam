@@ -1,0 +1,32 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "textures": {
+      "all": "steamagerevolution:blocks/pneumatic_router"
+    },
+    "model": "cube_all",
+    "uvlock": true,
+    "transform": "forge:default-block"
+  },
+  "variants": {
+    "facing": { 
+    		"up": {
+    			"x": 90
+    		},
+    		"down": {
+    			"x": -90
+    		},
+    		"east": {
+    			"y": 90
+    		},
+    		"west": {
+    			"y": -90
+    		},
+    		"north": {
+    			"y": 180
+    		},
+    		"south": {}
+    	},
+    "inventory": [{}]
+  }
+}
