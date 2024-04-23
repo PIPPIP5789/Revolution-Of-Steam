@@ -4,12 +4,14 @@ import com.teamacronymcoders.base.multiblocksystem.IMultiblockPart;
 import com.teamacronymcoders.base.multiblocksystem.MultiblockControllerBase;
 import com.teamacronymcoders.base.multiblocksystem.validation.IMultiblockValidator;
 
+import com.teamacronymcoders.base.registrysystem.BlockRegistry;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.tileentity.TileEntity;
 import net.minecraft.util.EnumFacing;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraftforge.items.*;
+import xyz.brassgoggledcoders.steamagerevolution.SARBlocks;
 import xyz.brassgoggledcoders.steamagerevolution.SARObjectHolder;
 import xyz.brassgoggledcoders.steamagerevolution.inventorysystem.*;
 import xyz.brassgoggledcoders.steamagerevolution.inventorysystem.handlers.ItemStackHandlerSync;
@@ -162,7 +164,8 @@ public class ControllerTubeNetwork extends MultiblockControllerBase
                 }
             }
         }
-        // Try output from buffer
+        // NEED TO FIX PNEUMATIC CRASH
+        //if(WORLD.getBlockState(output.getWorldPosition()) == BlockPneumaticRouter.getStateById(SARBlocks.blockPneumaticRouter))
         EnumFacing facing = WORLD.getBlockState(output.getWorldPosition()).getValue(BlockPneumaticRouter.FACING);
         TileEntity outputToTE = WORLD.getTileEntity(output.getWorldPosition().offset(facing));
         if(outputToTE != null && outputToTE.hasCapability(CapabilityItemHandler.ITEM_HANDLER_CAPABILITY, facing)) {

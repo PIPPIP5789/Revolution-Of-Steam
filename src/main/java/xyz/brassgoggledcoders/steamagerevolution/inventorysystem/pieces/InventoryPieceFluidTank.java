@@ -27,7 +27,7 @@ public class InventoryPieceFluidTank extends InventoryPieceHandler<FluidTankSync
     }
 
     public InventoryPieceFluidTank(IOType input, int capacity, int xPosition, int yPosition) {
-        this(null, new FluidTankSync(capacity), xPosition, yPosition);
+        this(input, new FluidTankSync(capacity), xPosition, yPosition);
     }
 
     protected InventoryPieceFluidTank(IOType type, FluidTankSync handler, int xPosition, int yPosition, int tX, int tY,

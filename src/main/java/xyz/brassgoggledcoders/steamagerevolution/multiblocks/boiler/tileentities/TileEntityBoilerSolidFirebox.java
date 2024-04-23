@@ -25,7 +25,7 @@ public class TileEntityBoilerSolidFirebox extends TileEntityBoilerPart {
     @Nonnull
     public <T> T getCapability(@Nonnull Capability<T> capability, @Nullable EnumFacing facing) {
         if(capability == CapabilityItemHandler.ITEM_HANDLER_CAPABILITY) {
-            return CapabilityItemHandler.ITEM_HANDLER_CAPABILITY.cast(new MultiblockStackHandlerWrapper(this, "fuel"));
+            return CapabilityItemHandler.ITEM_HANDLER_CAPABILITY.cast(new MultiblockStackHandlerWrapper(this, "solidFuel"));
         }
         return super.getCapability(capability, facing);
     }

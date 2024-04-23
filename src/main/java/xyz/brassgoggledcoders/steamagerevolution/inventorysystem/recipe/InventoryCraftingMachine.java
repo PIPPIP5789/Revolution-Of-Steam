@@ -236,6 +236,11 @@ public class InventoryCraftingMachine extends InventoryBasic {
             Optional<MachineRecipe> recipe = RecipeRegistry
                     .getRecipesForMachine(enclosingMachine.getMachineType().getUID()).parallelStream()
                     .filter(r -> hasRequiredFluids(r)).filter(r -> hasRequiredItems(r)).findFirst();
+
+            Optional<MachineRecipe> recipeTemp = RecipeRegistry
+                    .getRecipesForMachine(enclosingMachine.getMachineType().getUID()).parallelStream()
+                    .filter(r -> hasRequiredItems(r)).findFirst();
+
             if(recipe.isPresent()) {
                 setCurrentRecipe(recipe.get());
                 return true;

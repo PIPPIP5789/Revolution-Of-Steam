@@ -1,5 +1,7 @@
 package xyz.brassgoggledcoders.steamagerevolution.multiblocks.boiler;
 
+import net.minecraft.init.Items;
+import net.minecraftforge.fluids.capability.IFluidHandler;
 import org.apache.commons.lang3.tuple.Pair;
 
 import com.teamacronymcoders.base.multiblocksystem.IMultiblockPart;
@@ -14,6 +16,7 @@ import net.minecraftforge.items.IItemHandler;
 import xyz.brassgoggledcoders.steamagerevolution.*;
 import xyz.brassgoggledcoders.steamagerevolution.inventorysystem.*;
 import xyz.brassgoggledcoders.steamagerevolution.inventorysystem.handlers.FluidTankSingleSync;
+import xyz.brassgoggledcoders.steamagerevolution.inventorysystem.handlers.FluidTankSync;
 import xyz.brassgoggledcoders.steamagerevolution.inventorysystem.handlers.ItemStackHandlerSync;
 import xyz.brassgoggledcoders.steamagerevolution.inventorysystem.pieces.InventoryPieceFluidTank;
 import xyz.brassgoggledcoders.steamagerevolution.inventorysystem.recipe.MultiblockCraftingMachine;
@@ -62,6 +65,7 @@ public class ControllerBoiler extends MultiblockCraftingMachine<InventoryHeatabl
         // Stage 1 - Burn fuel
         if(currentBurnTime <= 0) {
             IItemHandler solidFuelHandler = getInventory().getHandler("solidFuel", ItemStackHandlerSync.class);
+            IFluidHandler liquidFuelHandler = getInventory().getHandler("liquidFuel", FluidTankSingleSync.class);
             if(solidFuelHandler != null) {
 	            for(int i = 0; i < solidFuelHandler.getSlots(); i++) {
 	                ItemStack fuel = solidFuelHandler.getStackInSlot(i);
@@ -72,7 +76,20 @@ public class ControllerBoiler extends MultiblockCraftingMachine<InventoryHeatabl
 	                }
 	            }
             }
-            // TODO Reimplement liquid fuel support
+            if(liquidFuelHandler != null) {
+                try {
+                    FluidStack fuel = liquidFuelHandler.drain(new FluidStack(FluidRegistry.LAVA, Fluid.BUCKET_VOLUME), true);
+                    if(fuel == null) {}
+                    else if (fuel.amount != Fluid.BUCKET_VOLUME) {
+                        liquidFuelHandler.fill(fuel, true);
+                    }
+                    else if(fuel.getFluid().equals(FluidRegistry.LAVA)) {
+                        currentBurnTime = (int) Math.floor(TileEntityFurnace.getItemBurnTime(new ItemStack(Items.LAVA_BUCKET, 1)) / (fuelDivisor));
+                        return true;
+                    }
+                }
+                catch(NullPointerException e) {}
+            }
             // If we have run out of fuel to maintain temperature, rapidly cool down
             if(currentBurnTime <= 0) {
                 getInventory().getCapability(SARCaps.HEATABLE, null).heat(-5);

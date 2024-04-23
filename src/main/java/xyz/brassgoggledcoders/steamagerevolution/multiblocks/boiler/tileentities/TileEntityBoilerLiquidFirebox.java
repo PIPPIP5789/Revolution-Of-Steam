@@ -60,7 +60,7 @@ public class TileEntityBoilerLiquidFirebox extends TileEntityBoilerPart {
     @Override
     public InventoryPiece<InventoryCraftingMachine> getAssociatedInventoryPiece() {
         InventoryPiece piece = new InventoryPieceFluidTank(IOType.INPUT, new FluidTankSync(Fluid.BUCKET_VOLUME * 16),
-                50, 9);
+                70, 9);
         piece.setName("liquidFuel");
         return piece;
     }

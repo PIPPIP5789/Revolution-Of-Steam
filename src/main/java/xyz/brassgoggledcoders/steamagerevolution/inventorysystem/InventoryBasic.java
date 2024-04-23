@@ -92,12 +92,20 @@ public class InventoryBasic implements ICapabilitySerializable<NBTTagCompound> {
 			try {
 				MultiFluidHandler handler = ((InventoryPieceHandler<MultiFluidHandler>) inventoryPieces.get(message.name)).getHandler();
 				for(FluidTankSync fillTank : handler.containedTanks) {
-					if(fillTank.getFluid() != null && fillTank.getFluid().getFluid().equals(message.fluid.getFluid())) {
+					if(fillTank != null && fillTank.getFluid() != null && message.fluid != null && fillTank.getFluid().getFluid().equals(message.fluid.getFluid())) {
 						tank = fillTank;
 					}
 				}
 				if(tank == null) {
-					tank = handler.containedTanks[0];
+					for(int i = 0; i < handler.containedTanks.length; i++) {
+						if(handler.containedTanks[i].getFluid() == null) {
+							tank = handler.containedTanks[i];
+							break;
+						}
+					}
+				}
+				if(tank == null) {
+					tank = handler.containedTanks[handler.getActiveTankNum()];
 				}
 			}
 			catch(ClassCastException e) {

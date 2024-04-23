@@ -10,6 +10,7 @@ import xyz.brassgoggledcoders.steamagerevolution.inventorysystem.handlers.FluidT
 public class MultiFluidHandler implements IFluidHandler, INBTSerializable<NBTTagCompound> {
 
     public FluidTankSync[] containedTanks;
+    private Integer activeTankNum;
 
     public MultiFluidHandler(FluidTankSync... containedTanks) {
         this.containedTanks = containedTanks;
@@ -29,7 +30,7 @@ public class MultiFluidHandler implements IFluidHandler, INBTSerializable<NBTTag
     @Override
     public int fill(FluidStack resource, boolean doFill) {
         for(FluidTankSync tank : containedTanks) {
-            if(tank.fill(resource, false) == resource.amount) {
+            if((tank.getFluid() == null || tank.getFluid().amount == 0 || tank.getFluid().getFluid().equals(resource.getFluid())) && tank.fill(resource, false) == resource.amount) {
                 return tank.fill(resource, doFill);
             }
         }
@@ -44,6 +45,7 @@ public class MultiFluidHandler implements IFluidHandler, INBTSerializable<NBTTag
                 return tank.drain(resource.amount, doDrain);
             }
         }
+
         return null;
     }
 
@@ -76,6 +78,14 @@ public class MultiFluidHandler implements IFluidHandler, INBTSerializable<NBTTag
         for(FluidTankSync tank : containedTanks) {
             tank.deserializeNBT(list.getCompoundTagAt(i++));
         }
+    }
+
+    public void setActiveTankNum(int activeTankNum) {
+        this.activeTankNum = activeTankNum;
+    }
+
+    public int getActiveTankNum() {
+        return this.activeTankNum;
     }
 
 }

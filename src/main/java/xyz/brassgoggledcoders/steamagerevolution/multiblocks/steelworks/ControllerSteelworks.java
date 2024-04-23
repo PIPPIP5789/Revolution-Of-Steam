@@ -43,9 +43,6 @@ public class ControllerSteelworks extends MultiblockCraftingMachine<InventoryCra
             for (int i = 0; i < carbonHandler.getSlots(); i++) {
                 ItemStack fuel = carbonHandler.getStackInSlot(i);
                 if(!fuel.isEmpty() && fuel.getItem().equals(Items.COAL)) {
-                    System.out.println(inventory);
-                    System.out.println(inventory.inventoryPieces);
-                    System.out.println(inventory.inventoryPieces.get("fluidInput"));
                     FluidTankSync ironHandler = ((InventoryPieceHandler<FluidTankSync>) inventory.inventoryPieces.get("fluidInput")).getHandler();
 
                     if(ironHandler.getFluid() != null && ironHandler.getFluid().amount >= IRON_STEEL_CONVERSION) {

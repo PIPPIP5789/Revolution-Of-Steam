@@ -4,6 +4,7 @@ import java.awt.Color;
 
 import com.teamacronymcoders.base.registrysystem.BlockRegistry;
 
+import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
 import net.minecraft.nbt.NBTTagCompound;
 import net.minecraft.potion.PotionUtils;
@@ -26,14 +27,18 @@ import xyz.brassgoggledcoders.steamagerevolution.multiblocks.vat.blocks.*;
 import xyz.brassgoggledcoders.steamagerevolution.pneumatic.*;
 
 public class SARBlocks {
+
+    public static Block blockPneumaticRouter;
     public static void registerBlocks(BlockRegistry blockRegistry) {
         registerFluids(blockRegistry);
+
+        blockPneumaticRouter = new BlockPneumaticRouter(Material.IRON, "pneumatic_router");
 
         blockRegistry.register(new BlockCharcoal());
 
         blockRegistry.register(new BlockPneumaticTube(Material.IRON, "pneumatic_tube"));
         blockRegistry.register(new BlockPneumaticSender(Material.IRON, "pneumatic_sender"));
-        blockRegistry.register(new BlockPneumaticRouter(Material.IRON, "pneumatic_router"));
+        blockRegistry.register(blockPneumaticRouter);
 
         blockRegistry.register(new BlockBoilerCasing(Material.IRON, "boiler_casing"));
         blockRegistry.register(new BlockBoilerWaterInput(Material.IRON, "boiler_water_input"));

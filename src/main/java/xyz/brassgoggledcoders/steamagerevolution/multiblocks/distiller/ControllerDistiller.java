@@ -44,7 +44,7 @@ public class ControllerDistiller extends MultiblockCraftingMachine<InventoryCraf
 
         // Get all blocks in bottom layer of machine & check they're radiators
         for(BlockPos pos : BlockPos.getAllInBox(first, second)) {
-            if(WORLD.getBlockState(pos).getBlock() != SARObjectHolder.distiller_radiator) {
+            if(!WORLD.getBlockState(pos).getBlock().equals(SARObjectHolder.distiller_radiator)) {
                 validatorCallback.setLastError(
                         new ValidationError("steamagerevolution.multiblock.validation.distiller_radiator"));
                 return false;

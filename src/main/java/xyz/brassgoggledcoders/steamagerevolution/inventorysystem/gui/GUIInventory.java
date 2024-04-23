@@ -1,7 +1,9 @@
 package xyz.brassgoggledcoders.steamagerevolution.inventorysystem.gui;
 
 import java.io.IOException;
+import java.util.Collection;
 
+import com.google.common.collect.Iterables;
 import org.apache.commons.lang3.tuple.Pair;
 
 import com.google.common.collect.Lists;
@@ -15,6 +17,7 @@ import net.minecraftforge.fml.relauncher.Side;
 import net.minecraftforge.fml.relauncher.SideOnly;
 import xyz.brassgoggledcoders.steamagerevolution.SteamAgeRevolution;
 import xyz.brassgoggledcoders.steamagerevolution.inventorysystem.*;
+import xyz.brassgoggledcoders.steamagerevolution.inventorysystem.handlers.FluidTankSync;
 import xyz.brassgoggledcoders.steamagerevolution.inventorysystem.pieces.InventoryPieceItemHandler;
 import xyz.brassgoggledcoders.steamagerevolution.inventorysystem.pieces.InventoryPieceMultiFluidTank;
 
@@ -45,11 +48,42 @@ public class GUIInventory extends GuiContainer {
             GUIElement element = piece.getGUIElement();
             // TODO Don't just pass a fresh list in each time.
             // TODO Add mouse params to getTooltip
-            if(!piece.getTooltip(Lists.newArrayList()).isEmpty()
-                    && isPointInRegion(piece.getX(), piece.getY(), element.width, element.height, mouseX, mouseY)) {
-                this.drawHoveringText(piece.getTooltip(Lists.newArrayList()), mouseX, mouseY);
+            if (piece instanceof InventoryPieceMultiFluidTank) {
+                for (int i = 0; i < ((InventoryPieceMultiFluidTank) piece).getHandler().containedTanks.length; i++) {
+                    FluidTankSync tank = ((InventoryPieceMultiFluidTank) piece).getHandler().containedTanks[i];
+                    element = new GUIElement(((InventoryPieceMultiFluidTank) piece).tankXs[i], ((InventoryPieceMultiFluidTank) piece).tankYs[i], 18, 44);
+                    ((InventoryPieceMultiFluidTank) piece).setActiveTankNum(i);
+
+                    if (!piece.getTooltip(Lists.newArrayList()).isEmpty()
+                            && isPointInRegion(element.textureX, element.textureY, element.width, element.height, mouseX, mouseY)) {
+                        this.drawHoveringText(piece.getTooltip(Lists.newArrayList()), mouseX, mouseY);
+                    }
+                    piece.drawScreenCallback(this, mouseX, mouseY, partialTicks);
+                }
             }
-            piece.drawScreenCallback(this, mouseX, mouseY, partialTicks);
+            else {
+            /*if(piece instanceof InventoryPieceMultiFluidTank) {
+                try {
+                    piece = ((InventoryPieceMultiFluidTank) piece).findFluidTank(piece.getX(), piece.getY(), mouseX, mouseY).getEnclosingIPiece();
+                    System.out.println("Waka -> " + piece);
+                }
+                catch(NullPointerException e) {}
+            }*/
+                if (!piece.getTooltip(Lists.newArrayList()).isEmpty()
+                        && isPointInRegion(piece.getX(), piece.getY(), element.width, element.height, mouseX, mouseY)) {
+                    //if(piece instanceof InventoryPieceMultiFluidTank) {
+                    //System.out.println("Waka Naka");
+                    //this.drawHoveringText(piece.getTooltip(Lists.newArrayList(String.valueOf(piece.getX()), String.valueOf(piece.getY()), String.valueOf(mouseX), String.valueOf(mouseY))), mouseX, mouseY);
+                    /*try {
+                        piece = ((InventoryPieceMultiFluidTank) piece).findFluidTank(piece.getX(), piece.getY(), mouseX, mouseY).getEnclosingIPiece();
+                    }
+                    catch(NullPointerException e) {}*/
+                    //}
+                    //else
+                    this.drawHoveringText(piece.getTooltip(Lists.newArrayList()), mouseX, mouseY);
+                }
+                piece.drawScreenCallback(this, mouseX, mouseY, partialTicks);
+            }
         }
     }
 
@@ -101,8 +135,25 @@ public class GUIInventory extends GuiContainer {
     protected void mouseClicked(int mouseX, int mouseY, int mouseButton) throws IOException {
         for(InventoryPiece<?> piece : holder.getInventory().getInventoryPieces()) {
             GUIElement element = piece.getGUIElement();
-            if(isPointInRegion(piece.getX(), piece.getY(), element.width, element.height, mouseX, mouseY)) {
-                piece.mouseClickedCallback(this, mouseButton);
+
+            if (piece instanceof InventoryPieceMultiFluidTank) {
+                for (int i = 0; i < ((InventoryPieceMultiFluidTank) piece).getHandler().containedTanks.length; i++) {
+                    FluidTankSync tank = ((InventoryPieceMultiFluidTank) piece).getHandler().containedTanks[i];
+
+                    element = new GUIElement(((InventoryPieceMultiFluidTank) piece).tankXs[i], ((InventoryPieceMultiFluidTank) piece).tankYs[i], 18, 44);
+
+                    if (isPointInRegion(element.textureX, element.textureY, element.width, element.height, mouseX, mouseY)) {
+                        ((InventoryPieceMultiFluidTank) piece).getHandler().setActiveTankNum(i);
+                        ((InventoryPieceMultiFluidTank) piece).setActiveTankNum(i);
+
+                        piece.mouseClickedCallback(this, mouseButton);
+                    }
+                }
+            }
+            else {
+                if (isPointInRegion(piece.getX(), piece.getY(), element.width, element.height, mouseX, mouseY)) {
+                    piece.mouseClickedCallback(this, mouseButton);
+                }
             }
         }
         super.mouseClicked(mouseX, mouseY, mouseButton);

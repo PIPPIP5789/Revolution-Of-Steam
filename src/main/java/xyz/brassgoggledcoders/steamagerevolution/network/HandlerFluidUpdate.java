@@ -33,10 +33,10 @@ public class HandlerFluidUpdate implements IMessageHandler<PacketFluidUpdate, IM
             IHasInventory<?> tile = (IHasInventory<?>) te;
             tile.getInventory().updateFluid(message);
         }
-        else {
+        else if(te != null) {
             MultiblockTileEntityBase<?> tile = (MultiblockTileEntityBase<?>) te;
             IHasInventory<?> controller = (IHasInventory<?>) tile.getMultiblockController();
             controller.getInventory().updateFluid(message);
         }
-    }
+    } // -162, y=71, z=420
 }

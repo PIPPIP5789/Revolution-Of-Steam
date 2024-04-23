@@ -87,6 +87,7 @@ public class MachineRecipeBuilder {
         MachineRecipe recipe = new MachineRecipe(crafter, itemInputs, fluidInputs, ticksToProcess, steamUsePerCraft,
                 itemOutputs, fluidOutputs, temperatureThreshold);
         RecipeRegistry.addRecipe(crafter, recipe);
+
         return recipe;
     }
 
